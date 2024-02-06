@@ -39,7 +39,7 @@ public class Patient {
 		
 	}
 	
-	public void viewPatient() {
+	public void viewPatients() {
 		String query = "select * from patients";
 		try {
 			PreparedStatement preparedStatement = connection.prepareStatement(query);
